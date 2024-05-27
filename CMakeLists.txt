@@ -1,5 +1,5 @@
-#find_package(Protobuf CONFIG REQUIRED)
-find_package(Protobuf)
+find_package(Protobuf CONFIG REQUIRED)
+#find_package(Protobuf)
 find_package(gRPC CONFIG REQUIRED)
 
 set(_PROTOBUF_LIBPROTOBUF protobuf::libprotobuf)
